@@ -1,0 +1,22 @@
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<DialogPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="chllng.DialogController">
+    <headerText> Dodaj nowy kontakt</headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Imię" GridPane.rowIndex="0" GridPane.columnIndex="0"> </Label>
+            <TextField  fx:id="name" GridPane.rowIndex="0" GridPane.columnIndex="1"> </TextField>
+            <Label text="Nazwisko" GridPane.rowIndex="1" GridPane.columnIndex="0"> </Label>
+            <TextField fx:id="surname" GridPane.rowIndex="1" GridPane.columnIndex="1"> </TextField>
+            <Label text="Nr telefonu" GridPane.rowIndex="2" GridPane.columnIndex="0"> </Label>
+            <TextField fx:id="phone" GridPane.rowIndex="2" GridPane.columnIndex="1"> </TextField>
+            <Label text="Notatki" GridPane.rowIndex="3" GridPane.columnIndex="0"> </Label>
+            <TextField fx:id="notes" GridPane.rowIndex="3" GridPane.columnIndex="1"> </TextField>
+    </GridPane>
+</content>
+
+</DialogPane>

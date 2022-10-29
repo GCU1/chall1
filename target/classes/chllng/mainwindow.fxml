@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Background?>
+<?import javafx.scene.layout.BackgroundFill?>
+
+<BorderPane fx:id="mainBorderPane" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="chllng.HelloController">
+    <center> <TableView fx:id="contactListView"> </TableView></center>
+    <top>
+        <MenuBar>
+
+            <Menu text="File">
+                <MenuItem text="New" onAction="#showNewContactDialog"/>
+                    <MenuItem text="Exit"/>
+            </Menu>
+        </MenuBar>
+    </top>
+<!--    <left>  <VBox style="-fx-background-color: brown" >  <Label text="Hej" style="-fx-background-color: white"></Label> </VBox>-->
+<!--    </left>-->
+</BorderPane>

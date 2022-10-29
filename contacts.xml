@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Stefan</first_name>
+	<last_name>Burczymucha</last_name>
+	<phone_number>433-597-233</phone_number>
+	<notes>Zuch</notes>
+</contact>
+<contact>
+	<first_name>Lech</first_name>
+	<last_name>Stanczyk</last_name>
+	<phone_number>433-44-55</phone_number>
+	<notes>Test</notes>
+</contact>
+<contact>
+	<first_name>Weronik</first_name>
+	<last_name>Przerwa</last_name>
+	<phone_number>265-664-778</phone_number>
+	<notes>Konnichiwa</notes>
+</contact>
+<contact>
+	<first_name>Jan</first_name>
+	<last_name>Kowalski</last_name>
+	<phone_number>513-554-321</phone_number>
+	<notes>Helo</notes>
+</contact>
+<contact>
+	<first_name>Cyryl</first_name>
+	<last_name>Janietaki</last_name>
+	<phone_number>255-458-369</phone_number>
+	<notes>Guten</notes>
+</contact>
+<contact>
+	<first_name>John</first_name>
+	<last_name>Rambo</last_name>
+	<phone_number>544-54-21</phone_number>
+	<notes>First Blood</notes>
+</contact>
+<contact>
+	<first_name>Kamil</first_name>
+	<last_name>Nowak</last_name>
+	<phone_number>255-544-789</phone_number>
+	<notes>Czesc</notes>
+</contact>
+<contact>
+	<first_name>Jan</first_name>
+	<last_name>Matejko</last_name>
+	<phone_number>544-455-678</phone_number>
+	<notes>Bitwa pod Grunwaldem</notes>
+</contact>
+</contacts>
